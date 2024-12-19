@@ -1,0 +1,25 @@
+{
+  "name": "simplesite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.10.0",
+    "@aws-amplify/backend-cli": "^1.4.4",
+    "aws-cdk": "^2.173.2",
+    "aws-cdk-lib": "^2.173.2",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.10.3"
+  }
+}
